@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "189283EC18CDE46900B001BF"
-               BuildableName = "libJuliaCoreFramework.a"
-               BlueprintName = "JuliaCoreFramework"
+               BlueprintIdentifier = "1892841918CDE77E00B001BF"
+               BuildableName = "JuliaCore.framework"
+               BlueprintName = "JuliaCore"
                ReferencedContainer = "container:JuliaCoreFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "189283FC18CDE46900B001BF"
-               BuildableName = "JuliaCoreFrameworkTests.xctest"
-               BlueprintName = "JuliaCoreFrameworkTests"
-               ReferencedContainer = "container:JuliaCoreFramework.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

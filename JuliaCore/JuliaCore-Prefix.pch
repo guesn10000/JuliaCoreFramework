@@ -5,5 +5,7 @@
 //
 
 #ifdef __OBJC__
-    #import <Foundation/Foundation.h>
+    #import "JCDeviceMarcos.h"
+    #import "JCObjcMarcos.h"
+    #import "JCPathUtilities.h"
 #endif

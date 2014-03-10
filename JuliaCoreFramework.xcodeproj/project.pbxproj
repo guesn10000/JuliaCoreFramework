@@ -7,71 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189283F118CDE46900B001BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189283F018CDE46900B001BF /* Foundation.framework */; };
-		189283F618CDE46900B001BF /* JuliaCoreFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 189283F518CDE46900B001BF /* JuliaCoreFramework.h */; };
-		189283F818CDE46900B001BF /* JuliaCoreFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 189283F718CDE46900B001BF /* JuliaCoreFramework.m */; };
-		189283FF18CDE46900B001BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189283FE18CDE46900B001BF /* XCTest.framework */; };
-		1892840018CDE46900B001BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189283F018CDE46900B001BF /* Foundation.framework */; };
-		1892840218CDE46900B001BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892840118CDE46900B001BF /* UIKit.framework */; };
-		1892840518CDE46900B001BF /* libJuliaCoreFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 189283ED18CDE46900B001BF /* libJuliaCoreFramework.a */; };
-		1892840B18CDE46900B001BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1892840918CDE46900B001BF /* InfoPlist.strings */; };
-		1892840D18CDE46900B001BF /* JuliaCoreFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892840C18CDE46900B001BF /* JuliaCoreFrameworkTests.m */; };
+		1892841C18CDE77E00B001BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892841B18CDE77E00B001BF /* CoreFoundation.framework */; };
+		1892842218CDE77E00B001BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1892842018CDE77E00B001BF /* InfoPlist.strings */; };
+		1892849518CE117300B001BF /* JCDeviceMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849318CE117300B001BF /* JCDeviceMarcos.h */; };
+		1892849618CE117300B001BF /* JCObjcMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849418CE117300B001BF /* JCObjcMarcos.h */; };
+		1892849D18CE118500B001BF /* JCAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849B18CE118500B001BF /* JCAlert.h */; };
+		1892849E18CE118500B001BF /* JCAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892849C18CE118500B001BF /* JCAlert.m */; };
+		189284A118CE119000B001BF /* JCSideMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849F18CE119000B001BF /* JCSideMenuViewController.h */; };
+		189284A218CE119000B001BF /* JCSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189284A018CE119000B001BF /* JCSideMenuViewController.m */; };
+		189284A518CE12BA00B001BF /* JCFilePersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284A318CE12BA00B001BF /* JCFilePersistence.h */; };
+		189284A618CE12BA00B001BF /* JCFilePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 189284A418CE12BA00B001BF /* JCFilePersistence.m */; };
+		189284A818CE137800B001BF /* JCPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284A718CE137800B001BF /* JCPathUtilities.h */; };
+		189284AC18CE159D00B001BF /* JCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284AA18CE159D00B001BF /* JCTimer.h */; };
+		189284AD18CE159D00B001BF /* JCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189284AB18CE159D00B001BF /* JCTimer.m */; };
+		189284AF18CE162800B001BF /* JCTimeMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284AE18CE162800B001BF /* JCTimeMarcos.h */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1892840318CDE46900B001BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 189283E518CDE46900B001BF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 189283EC18CDE46900B001BF;
-			remoteInfo = JuliaCoreFramework;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		189283EB18CDE46900B001BF /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				189283F618CDE46900B001BF /* JuliaCoreFramework.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		189283ED18CDE46900B001BF /* libJuliaCoreFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJuliaCoreFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		189283F018CDE46900B001BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		189283F418CDE46900B001BF /* JuliaCoreFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuliaCoreFramework-Prefix.pch"; sourceTree = "<group>"; };
-		189283F518CDE46900B001BF /* JuliaCoreFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuliaCoreFramework.h; sourceTree = "<group>"; };
-		189283F718CDE46900B001BF /* JuliaCoreFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuliaCoreFramework.m; sourceTree = "<group>"; };
-		189283FD18CDE46900B001BF /* JuliaCoreFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuliaCoreFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189283FE18CDE46900B001BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1892840118CDE46900B001BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1892840818CDE46900B001BF /* JuliaCoreFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JuliaCoreFrameworkTests-Info.plist"; sourceTree = "<group>"; };
-		1892840A18CDE46900B001BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1892840C18CDE46900B001BF /* JuliaCoreFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuliaCoreFrameworkTests.m; sourceTree = "<group>"; };
+		1892841A18CDE77E00B001BF /* JuliaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuliaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1892841B18CDE77E00B001BF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1892841F18CDE77E00B001BF /* JuliaCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JuliaCore-Info.plist"; sourceTree = "<group>"; };
+		1892842118CDE77E00B001BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1892842318CDE77E00B001BF /* JuliaCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuliaCore-Prefix.pch"; sourceTree = "<group>"; };
+		1892849318CE117300B001BF /* JCDeviceMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCDeviceMarcos.h; path = Headers/Marcos/JCDeviceMarcos.h; sourceTree = "<group>"; };
+		1892849418CE117300B001BF /* JCObjcMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCObjcMarcos.h; path = Headers/Marcos/JCObjcMarcos.h; sourceTree = "<group>"; };
+		1892849B18CE118500B001BF /* JCAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCAlert.h; path = Classes/View/JCAlert.h; sourceTree = "<group>"; };
+		1892849C18CE118500B001BF /* JCAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCAlert.m; path = Classes/View/JCAlert.m; sourceTree = "<group>"; };
+		1892849F18CE119000B001BF /* JCSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCSideMenuViewController.h; path = Classes/Controllers/JCSideMenuViewController.h; sourceTree = "<group>"; };
+		189284A018CE119000B001BF /* JCSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCSideMenuViewController.m; path = Classes/Controllers/JCSideMenuViewController.m; sourceTree = "<group>"; };
+		189284A318CE12BA00B001BF /* JCFilePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCFilePersistence.h; path = "Classes/Data Persistence/JCFilePersistence.h"; sourceTree = "<group>"; };
+		189284A418CE12BA00B001BF /* JCFilePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCFilePersistence.m; path = "Classes/Data Persistence/JCFilePersistence.m"; sourceTree = "<group>"; };
+		189284A718CE137800B001BF /* JCPathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCPathUtilities.h; path = Headers/Marcos/JCPathUtilities.h; sourceTree = "<group>"; };
+		189284AA18CE159D00B001BF /* JCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCTimer.h; path = Classes/Timer/JCTimer.h; sourceTree = "<group>"; };
+		189284AB18CE159D00B001BF /* JCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCTimer.m; path = Classes/Timer/JCTimer.m; sourceTree = "<group>"; };
+		189284AE18CE162800B001BF /* JCTimeMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCTimeMarcos.h; path = Headers/Marcos/JCTimeMarcos.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		189283EA18CDE46900B001BF /* Frameworks */ = {
+		1892841718CDE77E00B001BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189283F118CDE46900B001BF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		189283FA18CDE46900B001BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				189283FF18CDE46900B001BF /* XCTest.framework in Frameworks */,
-				1892840518CDE46900B001BF /* libJuliaCoreFramework.a in Frameworks */,
-				1892840218CDE46900B001BF /* UIKit.framework in Frameworks */,
-				1892840018CDE46900B001BF /* Foundation.framework in Frameworks */,
+				1892841C18CDE77E00B001BF /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +61,7 @@
 		189283E418CDE46900B001BF = {
 			isa = PBXGroup;
 			children = (
-				189283F218CDE46900B001BF /* JuliaCoreFramework */,
-				1892840618CDE46900B001BF /* JuliaCoreFrameworkTests */,
+				1892841D18CDE77E00B001BF /* JuliaCore */,
 				189283EF18CDE46900B001BF /* Frameworks */,
 				189283EE18CDE46900B001BF /* Products */,
 			);
@@ -91,8 +70,7 @@
 		189283EE18CDE46900B001BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				189283ED18CDE46900B001BF /* libJuliaCoreFramework.a */,
-				189283FD18CDE46900B001BF /* JuliaCoreFrameworkTests.xctest */,
+				1892841A18CDE77E00B001BF /* JuliaCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,83 +81,135 @@
 				189283F018CDE46900B001BF /* Foundation.framework */,
 				189283FE18CDE46900B001BF /* XCTest.framework */,
 				1892840118CDE46900B001BF /* UIKit.framework */,
+				1892841B18CDE77E00B001BF /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		189283F218CDE46900B001BF /* JuliaCoreFramework */ = {
+		1892841D18CDE77E00B001BF /* JuliaCore */ = {
 			isa = PBXGroup;
 			children = (
-				189283F518CDE46900B001BF /* JuliaCoreFramework.h */,
-				189283F718CDE46900B001BF /* JuliaCoreFramework.m */,
-				189283F318CDE46900B001BF /* Supporting Files */,
+				1892847918CE0E8E00B001BF /* Headers */,
+				1892842718CDEF5800B001BF /* Classes */,
+				1892841E18CDE77E00B001BF /* Supporting Files */,
 			);
-			path = JuliaCoreFramework;
+			path = JuliaCore;
 			sourceTree = "<group>";
 		};
-		189283F318CDE46900B001BF /* Supporting Files */ = {
+		1892841E18CDE77E00B001BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				189283F418CDE46900B001BF /* JuliaCoreFramework-Prefix.pch */,
+				1892841F18CDE77E00B001BF /* JuliaCore-Info.plist */,
+				1892842018CDE77E00B001BF /* InfoPlist.strings */,
+				1892842318CDE77E00B001BF /* JuliaCore-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1892840618CDE46900B001BF /* JuliaCoreFrameworkTests */ = {
+		1892842718CDEF5800B001BF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1892840C18CDE46900B001BF /* JuliaCoreFrameworkTests.m */,
-				1892840718CDE46900B001BF /* Supporting Files */,
+				189284A918CE159200B001BF /* Timer */,
+				1892849218CE114100B001BF /* Data Persistence */,
+				1892847A18CE0EC700B001BF /* View */,
+				1892847B18CE0ECB00B001BF /* Controllers */,
 			);
-			path = JuliaCoreFrameworkTests;
+			name = Classes;
 			sourceTree = "<group>";
 		};
-		1892840718CDE46900B001BF /* Supporting Files */ = {
+		1892847818CE0E8900B001BF /* Marcos */ = {
 			isa = PBXGroup;
 			children = (
-				1892840818CDE46900B001BF /* JuliaCoreFrameworkTests-Info.plist */,
-				1892840918CDE46900B001BF /* InfoPlist.strings */,
+				1892849318CE117300B001BF /* JCDeviceMarcos.h */,
+				1892849418CE117300B001BF /* JCObjcMarcos.h */,
+				189284A718CE137800B001BF /* JCPathUtilities.h */,
+				189284AE18CE162800B001BF /* JCTimeMarcos.h */,
 			);
-			name = "Supporting Files";
+			name = Marcos;
+			sourceTree = "<group>";
+		};
+		1892847918CE0E8E00B001BF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1892847818CE0E8900B001BF /* Marcos */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		1892847A18CE0EC700B001BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1892849B18CE118500B001BF /* JCAlert.h */,
+				1892849C18CE118500B001BF /* JCAlert.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1892847B18CE0ECB00B001BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1892849F18CE119000B001BF /* JCSideMenuViewController.h */,
+				189284A018CE119000B001BF /* JCSideMenuViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1892849218CE114100B001BF /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				189284A318CE12BA00B001BF /* JCFilePersistence.h */,
+				189284A418CE12BA00B001BF /* JCFilePersistence.m */,
+			);
+			name = "Data Persistence";
+			sourceTree = "<group>";
+		};
+		189284A918CE159200B001BF /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				189284AA18CE159D00B001BF /* JCTimer.h */,
+				189284AB18CE159D00B001BF /* JCTimer.m */,
+			);
+			name = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		189283EC18CDE46900B001BF /* JuliaCoreFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1892841018CDE46900B001BF /* Build configuration list for PBXNativeTarget "JuliaCoreFramework" */;
-			buildPhases = (
-				189283E918CDE46900B001BF /* Sources */,
-				189283EA18CDE46900B001BF /* Frameworks */,
-				189283EB18CDE46900B001BF /* CopyFiles */,
+/* Begin PBXHeadersBuildPhase section */
+		1892842C18CDF14000B001BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892849D18CE118500B001BF /* JCAlert.h in Headers */,
+				1892849618CE117300B001BF /* JCObjcMarcos.h in Headers */,
+				189284A518CE12BA00B001BF /* JCFilePersistence.h in Headers */,
+				189284A118CE119000B001BF /* JCSideMenuViewController.h in Headers */,
+				1892849518CE117300B001BF /* JCDeviceMarcos.h in Headers */,
+				189284AF18CE162800B001BF /* JCTimeMarcos.h in Headers */,
+				189284A818CE137800B001BF /* JCPathUtilities.h in Headers */,
+				189284AC18CE159D00B001BF /* JCTimer.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JuliaCoreFramework;
-			productName = JuliaCoreFramework;
-			productReference = 189283ED18CDE46900B001BF /* libJuliaCoreFramework.a */;
-			productType = "com.apple.product-type.library.static";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		189283FC18CDE46900B001BF /* JuliaCoreFrameworkTests */ = {
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1892841918CDE77E00B001BF /* JuliaCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1892841318CDE46900B001BF /* Build configuration list for PBXNativeTarget "JuliaCoreFrameworkTests" */;
+			buildConfigurationList = 1892842418CDE77E00B001BF /* Build configuration list for PBXNativeTarget "JuliaCore" */;
 			buildPhases = (
-				189283F918CDE46900B001BF /* Sources */,
-				189283FA18CDE46900B001BF /* Frameworks */,
-				189283FB18CDE46900B001BF /* Resources */,
+				1892841618CDE77E00B001BF /* Sources */,
+				1892841718CDE77E00B001BF /* Frameworks */,
+				1892841818CDE77E00B001BF /* Resources */,
+				1892842C18CDF14000B001BF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1892840418CDE46900B001BF /* PBXTargetDependency */,
 			);
-			name = JuliaCoreFrameworkTests;
-			productName = JuliaCoreFrameworkTests;
-			productReference = 189283FD18CDE46900B001BF /* JuliaCoreFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = JuliaCore;
+			productName = JuliaCore;
+			productReference = 1892841A18CDE77E00B001BF /* JuliaCore.framework */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,55 +232,41 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				189283EC18CDE46900B001BF /* JuliaCoreFramework */,
-				189283FC18CDE46900B001BF /* JuliaCoreFrameworkTests */,
+				1892841918CDE77E00B001BF /* JuliaCore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		189283FB18CDE46900B001BF /* Resources */ = {
+		1892841818CDE77E00B001BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1892840B18CDE46900B001BF /* InfoPlist.strings in Resources */,
+				1892842218CDE77E00B001BF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		189283E918CDE46900B001BF /* Sources */ = {
+		1892841618CDE77E00B001BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189283F818CDE46900B001BF /* JuliaCoreFramework.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		189283F918CDE46900B001BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1892840D18CDE46900B001BF /* JuliaCoreFrameworkTests.m in Sources */,
+				189284A218CE119000B001BF /* JCSideMenuViewController.m in Sources */,
+				1892849E18CE118500B001BF /* JCAlert.m in Sources */,
+				189284AD18CE159D00B001BF /* JCTimer.m in Sources */,
+				189284A618CE12BA00B001BF /* JCFilePersistence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		1892840418CDE46900B001BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 189283EC18CDE46900B001BF /* JuliaCoreFramework */;
-			targetProxy = 1892840318CDE46900B001BF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		1892840918CDE46900B001BF /* InfoPlist.strings */ = {
+		1892842018CDE77E00B001BF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1892840A18CDE46900B001BF /* en */,
+				1892842118CDE77E00B001BF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -328,65 +344,52 @@
 			};
 			name = Release;
 		};
-		1892841118CDE46900B001BF /* Debug */ = {
+		1892842518CDE77E00B001BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/JuliaCoreFramework.dst;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JuliaCoreFramework/JuliaCoreFramework-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		1892841218CDE46900B001BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/JuliaCoreFramework.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JuliaCoreFramework/JuliaCoreFramework-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1892841418CDE46900B001BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JuliaCoreFramework/JuliaCoreFramework-Prefix.pch";
+				GCC_PREFIX_HEADER = "JuliaCore/JuliaCore-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "JuliaCoreFrameworkTests/JuliaCoreFrameworkTests-Info.plist";
+				INFOPLIST_FILE = "JuliaCore/JuliaCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		1892841518CDE46900B001BF /* Release */ = {
+		1892842618CDE77E00B001BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JuliaCoreFramework/JuliaCoreFramework-Prefix.pch";
-				INFOPLIST_FILE = "JuliaCoreFrameworkTests/JuliaCoreFrameworkTests-Info.plist";
+				GCC_PREFIX_HEADER = "JuliaCore/JuliaCore-Prefix.pch";
+				INFOPLIST_FILE = "JuliaCore/JuliaCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -402,21 +405,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1892841018CDE46900B001BF /* Build configuration list for PBXNativeTarget "JuliaCoreFramework" */ = {
+		1892842418CDE77E00B001BF /* Build configuration list for PBXNativeTarget "JuliaCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1892841118CDE46900B001BF /* Debug */,
-				1892841218CDE46900B001BF /* Release */,
+				1892842518CDE77E00B001BF /* Debug */,
+				1892842618CDE77E00B001BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		1892841318CDE46900B001BF /* Build configuration list for PBXNativeTarget "JuliaCoreFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1892841418CDE46900B001BF /* Debug */,
-				1892841518CDE46900B001BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
