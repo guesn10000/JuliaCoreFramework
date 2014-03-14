@@ -7,6 +7,7 @@
 //
 
 #import "JCSideMenuViewController.h"
+#import "JCDeviceMarcos.h"
 
 #if 1
 #define __iOS7_BACKGROUND_SIDE_VIEW__

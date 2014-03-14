@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181C9B8118D2BBB600719EE7 /* JCUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 181C9B7F18D2BBB600719EE7 /* JCUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181C9B8218D2BBB600719EE7 /* JCUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C9B8018D2BBB600719EE7 /* JCUserDefaults.m */; };
+		183E7CA918D194FC004157B7 /* JuliaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 183E7CA818D194FC004157B7 /* JuliaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18904B3018D03C4B00EF2682 /* JCNotificationMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 18904B2F18D03C4B00EF2682 /* JCNotificationMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18904B3318D03C7B00EF2682 /* JCLocalNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 18904B3118D03C7B00EF2682 /* JCLocalNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18904B3418D03C7B00EF2682 /* JCLocalNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18904B3218D03C7B00EF2682 /* JCLocalNotificationCenter.m */; };
 		1892841C18CDE77E00B001BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892841B18CDE77E00B001BF /* CoreFoundation.framework */; };
 		1892842218CDE77E00B001BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1892842018CDE77E00B001BF /* InfoPlist.strings */; };
-		1892849518CE117300B001BF /* JCDeviceMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849318CE117300B001BF /* JCDeviceMarcos.h */; };
-		1892849618CE117300B001BF /* JCObjcMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849418CE117300B001BF /* JCObjcMarcos.h */; };
-		1892849D18CE118500B001BF /* JCAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849B18CE118500B001BF /* JCAlert.h */; };
+		1892849518CE117300B001BF /* JCDeviceMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849318CE117300B001BF /* JCDeviceMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1892849618CE117300B001BF /* JCObjcMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849418CE117300B001BF /* JCObjcMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1892849D18CE118500B001BF /* JCAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849B18CE118500B001BF /* JCAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1892849E18CE118500B001BF /* JCAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892849C18CE118500B001BF /* JCAlert.m */; };
-		189284A118CE119000B001BF /* JCSideMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849F18CE119000B001BF /* JCSideMenuViewController.h */; };
+		189284A118CE119000B001BF /* JCSideMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892849F18CE119000B001BF /* JCSideMenuViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		189284A218CE119000B001BF /* JCSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189284A018CE119000B001BF /* JCSideMenuViewController.m */; };
-		189284A518CE12BA00B001BF /* JCFilePersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284A318CE12BA00B001BF /* JCFilePersistence.h */; };
+		189284A518CE12BA00B001BF /* JCFilePersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284A318CE12BA00B001BF /* JCFilePersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		189284A618CE12BA00B001BF /* JCFilePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 189284A418CE12BA00B001BF /* JCFilePersistence.m */; };
-		189284A818CE137800B001BF /* JCPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284A718CE137800B001BF /* JCPathUtilities.h */; };
-		189284AC18CE159D00B001BF /* JCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284AA18CE159D00B001BF /* JCTimer.h */; };
+		189284A818CE137800B001BF /* JCPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284A718CE137800B001BF /* JCPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189284AC18CE159D00B001BF /* JCTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284AA18CE159D00B001BF /* JCTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		189284AD18CE159D00B001BF /* JCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189284AB18CE159D00B001BF /* JCTimer.m */; };
-		189284AF18CE162800B001BF /* JCTimeMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284AE18CE162800B001BF /* JCTimeMarcos.h */; };
+		189284AF18CE162800B001BF /* JCTimeMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 189284AE18CE162800B001BF /* JCTimeMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181C9B7F18D2BBB600719EE7 /* JCUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCUserDefaults.h; path = "Classes/Data Persistence/JCUserDefaults.h"; sourceTree = "<group>"; };
+		181C9B8018D2BBB600719EE7 /* JCUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCUserDefaults.m; path = "Classes/Data Persistence/JCUserDefaults.m"; sourceTree = "<group>"; };
+		183E7CA818D194FC004157B7 /* JuliaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JuliaCore.h; path = Headers/JuliaCore.h; sourceTree = "<group>"; };
+		18904B2F18D03C4B00EF2682 /* JCNotificationMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCNotificationMarcos.h; path = Headers/Marcos/JCNotificationMarcos.h; sourceTree = "<group>"; };
+		18904B3118D03C7B00EF2682 /* JCLocalNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCLocalNotificationCenter.h; path = Classes/Notification/JCLocalNotificationCenter.h; sourceTree = "<group>"; };
+		18904B3218D03C7B00EF2682 /* JCLocalNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCLocalNotificationCenter.m; path = Classes/Notification/JCLocalNotificationCenter.m; sourceTree = "<group>"; };
 		189283F018CDE46900B001BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		189283FE18CDE46900B001BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1892840118CDE46900B001BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18904B2718D0396F00EF2682 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				18904B3118D03C7B00EF2682 /* JCLocalNotificationCenter.h */,
+				18904B3218D03C7B00EF2682 /* JCLocalNotificationCenter.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
 		189283E418CDE46900B001BF = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				189284A918CE159200B001BF /* Timer */,
+				18904B2718D0396F00EF2682 /* Notification */,
 				1892849218CE114100B001BF /* Data Persistence */,
 				1892847A18CE0EC700B001BF /* View */,
 				1892847B18CE0ECB00B001BF /* Controllers */,
@@ -124,6 +146,7 @@
 				1892849418CE117300B001BF /* JCObjcMarcos.h */,
 				189284A718CE137800B001BF /* JCPathUtilities.h */,
 				189284AE18CE162800B001BF /* JCTimeMarcos.h */,
+				18904B2F18D03C4B00EF2682 /* JCNotificationMarcos.h */,
 			);
 			name = Marcos;
 			sourceTree = "<group>";
@@ -131,6 +154,7 @@
 		1892847918CE0E8E00B001BF /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				183E7CA818D194FC004157B7 /* JuliaCore.h */,
 				1892847818CE0E8900B001BF /* Marcos */,
 			);
 			name = Headers;
@@ -159,6 +183,8 @@
 			children = (
 				189284A318CE12BA00B001BF /* JCFilePersistence.h */,
 				189284A418CE12BA00B001BF /* JCFilePersistence.m */,
+				181C9B7F18D2BBB600719EE7 /* JCUserDefaults.h */,
+				181C9B8018D2BBB600719EE7 /* JCUserDefaults.m */,
 			);
 			name = "Data Persistence";
 			sourceTree = "<group>";
@@ -180,12 +206,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1892849D18CE118500B001BF /* JCAlert.h in Headers */,
+				18904B3018D03C4B00EF2682 /* JCNotificationMarcos.h in Headers */,
 				1892849618CE117300B001BF /* JCObjcMarcos.h in Headers */,
+				18904B3318D03C7B00EF2682 /* JCLocalNotificationCenter.h in Headers */,
 				189284A518CE12BA00B001BF /* JCFilePersistence.h in Headers */,
 				189284A118CE119000B001BF /* JCSideMenuViewController.h in Headers */,
 				1892849518CE117300B001BF /* JCDeviceMarcos.h in Headers */,
 				189284AF18CE162800B001BF /* JCTimeMarcos.h in Headers */,
 				189284A818CE137800B001BF /* JCPathUtilities.h in Headers */,
+				183E7CA918D194FC004157B7 /* JuliaCore.h in Headers */,
+				181C9B8118D2BBB600719EE7 /* JCUserDefaults.h in Headers */,
 				189284AC18CE159D00B001BF /* JCTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +286,9 @@
 				189284A218CE119000B001BF /* JCSideMenuViewController.m in Sources */,
 				1892849E18CE118500B001BF /* JCAlert.m in Sources */,
 				189284AD18CE159D00B001BF /* JCTimer.m in Sources */,
+				18904B3418D03C7B00EF2682 /* JCLocalNotificationCenter.m in Sources */,
 				189284A618CE12BA00B001BF /* JCFilePersistence.m in Sources */,
+				181C9B8218D2BBB600719EE7 /* JCUserDefaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "JCFilePersistence.h"
+#import "JCPathUtilities.h"
 #import "JCAlert.h"
 
 @implementation JCFilePersistence
@@ -106,6 +107,15 @@
     }
     
     return nil;
+}
+
+- (BOOL)isFileExitsAtPath:(NSString *)filePath {
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    if ([fileManager fileExistsAtPath:filePath isDirectory:NULL]) {
+        return YES;
+    }
+    
+    return NO;
 }
 
 #pragma mark - Save and load document file

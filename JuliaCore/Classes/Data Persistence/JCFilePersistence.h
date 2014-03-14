@@ -30,6 +30,9 @@
 /* 获取tmp文件夹下文件的路径 */
 - (NSString *)getDirectoryOfTmpFileWithName:(NSString *)fileName;
 
+/* 判断filePath中的文件是否存在 */
+- (BOOL)isFileExitsAtPath:(NSString *)filePath;
+
 /* 存取位于Document文件夹下文件中的mutable dictionary数据 */
 - (BOOL)saveMutableDictionary:(NSMutableDictionary *)mdic toDocumentFile:(NSString *)fileName;
 - (NSMutableDictionary *)loadMutableDictionaryFromDocumentFile:(NSString *)fileName;
